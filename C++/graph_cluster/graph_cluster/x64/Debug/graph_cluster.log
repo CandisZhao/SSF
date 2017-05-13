@@ -1,0 +1,29 @@
+﻿生成启动时间为 2017/5/13 15:01:33。
+     1>项目“E:\给谷歌\实验结果\graph_cluster\graph_cluster\graph_cluster.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Ox /Oi /Ot /GL /D _MBCS /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt get_p_value.cpp initialize.cpp main.cpp SSF.cpp write2file.cpp
+         write2file.cpp
+         SSF.cpp
+         main.cpp
+         initialize.cpp
+     1>initialize.cpp(64): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>initialize.cpp(65): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>initialize.cpp(110): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>initialize.cpp(111): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+         get_p_value.cpp
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\给谷歌\实验结果\graph_cluster\x64\Debug\graph_cluster.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\给谷歌\实验结果\graph_cluster\x64\Debug\graph_cluster.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\给谷歌\实验结果\graph_cluster\x64\Debug\graph_cluster.lib" /MACHINE:X64 x64\Debug\get_p_value.obj
+         x64\Debug\initialize.obj
+         x64\Debug\main.obj
+         x64\Debug\SSF.obj
+         x64\Debug\write2file.obj
+         get_p_value.obj : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+         正在生成代码
+         已完成代码的生成
+         graph_cluster.vcxproj -> E:\给谷歌\实验结果\graph_cluster\x64\Debug\graph_cluster.exe
+     1>已完成生成项目“E:\给谷歌\实验结果\graph_cluster\graph_cluster\graph_cluster.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.30
