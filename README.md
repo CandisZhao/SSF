@@ -21,7 +21,7 @@ that complie and run the code. Finally, the result will be obtained.
 
 * As to SSF in python, users could perform the following command in the command line:
 
-  * python input_file.txt output_file.txt alpha
+  * python upper_bound_test.py input_file.txt output_file.txt alpha
 
   And then, the result will be reported in the output_file.txt, and the corresponding
 assessment measure will be layout on the terminal.
