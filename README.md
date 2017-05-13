@@ -1,4 +1,4 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 
 # Protein Complexes Identification with FWER Control
 
@@ -16,7 +16,7 @@ in C++ and in Python 2.7.
 
 * Import the C++ code into Miscrosoft Visual Studio, and then load
 some datasets to test in the file conf.h. By the way, the
-significance level \\(\alpha\\) also could be user-specific. After
+significance level alpha also could be user-specific. After
 that complie and run the code. Finally, the result will be obtained.
 
 * As to SSF in python, users could perform the following command in the command line:
